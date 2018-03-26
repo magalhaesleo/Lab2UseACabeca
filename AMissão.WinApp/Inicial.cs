@@ -26,6 +26,7 @@ namespace AMissão.WinApp
 
         private void UpdateCharacters()
         {
+            this.Text = "A missão: Nivel " + game.Level;
             PBPlayer.Location = game.PlayerLocation;
             lblptsVidaJogador.Text = game.PlayerHitPoints.ToString();
 
@@ -124,27 +125,31 @@ namespace AMissão.WinApp
                     break;
                 default:
                     break;
-            }            
+            }
 
-            if (game.CheckPlayerInventory("Sword"))
+            List<string> weapons = game.PlayerWeapons;
+            foreach (string weapon in weapons)
             {
-                picEspada.Visible = true;
-            }
-            if (game.CheckPlayerInventory("BluePotion"))
-            {
-                picPocaoAzul.Visible = true;
-            }
-            if (game.CheckPlayerInventory("RedPotion"))
-            {
-                picPocaoVermelha.Visible = true;
-            }
-            if (game.CheckPlayerInventory("Bow"))
-            {
-                picArco.Visible = true;
-            }
-            if (game.CheckPlayerInventory("Mace"))
-            {
-                picBastao.Visible = true;
+                switch (weapon)
+                {
+                    case "Sword":
+                        picEspada.Visible = true;
+                        break;
+                    case "BluePotion":
+                        picPocaoAzul.Visible = true;
+                        break;
+                    case "RedPotion":
+                        picPocaoVermelha.Visible = true;
+                        break;
+                    case "Bow":
+                        picArco.Visible = true;
+                        break;
+                    case "Mace":
+                        picBastao.Visible = true;
+                        break;
+                    default:
+                        break;
+                }
             }
 
             weaponControl.Location = game.WeaponInRoom.Location;
