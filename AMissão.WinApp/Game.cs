@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Drawing;
 using AMissão.WinApp.Inimigos;
 using AMissão.WinApp.Armas;
+using System.Windows.Forms;
 
 namespace AMissão.WinApp
 {
@@ -132,7 +133,8 @@ namespace AMissão.WinApp
                         WeaponInRoom = new Mace(this, GetRandomLocation(random));
                     break;
                 case 8:
-                    //exit
+                    MessageBox.Show("Parabéns você terminou todos os niveis!", "Fim");
+                    Application.Exit();
                     break;
                 default:
                     break;
