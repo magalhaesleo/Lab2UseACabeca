@@ -533,6 +533,8 @@
             this.Controls.Add(this.picArmaEspada);
             this.Controls.Add(this.picArmaArco);
             this.Controls.Add(this.picArmaBastao);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.MaximizeBox = false;
             this.Name = "Inicial";
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

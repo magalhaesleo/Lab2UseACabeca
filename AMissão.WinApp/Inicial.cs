@@ -180,12 +180,12 @@ namespace AMissão.WinApp
             }
             if (game.PlayerHitPoints <= 0)
             {
-                MessageBox.Show("Você Morreu");
+                MessageBox.Show("Você Morreu", "Fim");
                 Application.Exit();
             }
             if (enemiesShown < 1)
             {
-                MessageBox.Show("Você derrotou todos os inimigos neste nivel");
+                MessageBox.Show("Você derrotou todos os inimigos neste nivel","Parabéns");
                 game.NewLevel(random);
                 UpdateCharacters();
             }
