@@ -350,6 +350,7 @@
             // 
             // PBPlayer
             // 
+            this.PBPlayer.BackColor = System.Drawing.Color.Transparent;
             this.PBPlayer.Image = global::AMissão.WinApp.Properties.Resources.player;
             this.PBPlayer.Location = new System.Drawing.Point(78, 57);
             this.PBPlayer.Name = "PBPlayer";
@@ -360,6 +361,7 @@
             // 
             // picArmaBastao
             // 
+            this.picArmaBastao.BackColor = System.Drawing.Color.Transparent;
             this.picArmaBastao.Image = global::AMissão.WinApp.Properties.Resources.mace;
             this.picArmaBastao.Location = new System.Drawing.Point(366, 57);
             this.picArmaBastao.Name = "picArmaBastao";
@@ -371,6 +373,7 @@
             // 
             // picArmaPocaoVermelha
             // 
+            this.picArmaPocaoVermelha.BackColor = System.Drawing.Color.Transparent;
             this.picArmaPocaoVermelha.Image = global::AMissão.WinApp.Properties.Resources.potion_red;
             this.picArmaPocaoVermelha.Location = new System.Drawing.Point(330, 57);
             this.picArmaPocaoVermelha.Name = "picArmaPocaoVermelha";
@@ -382,6 +385,7 @@
             // 
             // picArmaPocaoAzul
             // 
+            this.picArmaPocaoAzul.BackColor = System.Drawing.Color.Transparent;
             this.picArmaPocaoAzul.Image = global::AMissão.WinApp.Properties.Resources.potion_blue;
             this.picArmaPocaoAzul.Location = new System.Drawing.Point(294, 57);
             this.picArmaPocaoAzul.Name = "picArmaPocaoAzul";
@@ -393,6 +397,7 @@
             // 
             // picArmaArco
             // 
+            this.picArmaArco.BackColor = System.Drawing.Color.Transparent;
             this.picArmaArco.Image = global::AMissão.WinApp.Properties.Resources.bow;
             this.picArmaArco.Location = new System.Drawing.Point(258, 57);
             this.picArmaArco.Name = "picArmaArco";
@@ -404,6 +409,7 @@
             // 
             // picGhost
             // 
+            this.picGhost.BackColor = System.Drawing.Color.Transparent;
             this.picGhost.Image = global::AMissão.WinApp.Properties.Resources.ghost;
             this.picGhost.Location = new System.Drawing.Point(222, 57);
             this.picGhost.Name = "picGhost";
@@ -415,6 +421,7 @@
             // 
             // picZombie
             // 
+            this.picZombie.BackColor = System.Drawing.Color.Transparent;
             this.picZombie.Image = global::AMissão.WinApp.Properties.Resources.ghoul;
             this.picZombie.Location = new System.Drawing.Point(186, 57);
             this.picZombie.Name = "picZombie";
@@ -426,6 +433,7 @@
             // 
             // picArmaEspada
             // 
+            this.picArmaEspada.BackColor = System.Drawing.Color.Transparent;
             this.picArmaEspada.Image = global::AMissão.WinApp.Properties.Resources.sword;
             this.picArmaEspada.Location = new System.Drawing.Point(150, 57);
             this.picArmaEspada.Name = "picArmaEspada";
@@ -437,6 +445,7 @@
             // 
             // picBat
             // 
+            this.picBat.BackColor = System.Drawing.Color.Transparent;
             this.picBat.Image = global::AMissão.WinApp.Properties.Resources.bat;
             this.picBat.Location = new System.Drawing.Point(114, 57);
             this.picBat.Name = "picBat";
